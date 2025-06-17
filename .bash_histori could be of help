@@ -1,0 +1,253 @@
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exot
+exit
+kb_layout
+kb_layout es
+kb_layout }{|":LKJH::";;;;;;;;;;;'
+))_)(*&^$#@kb_layout }{|":LKJH::";;;;;;;;;;;'!!@~~~~``````~~~???>>/////.,;\';\']
+kb_layout = es
+kb_;ayout = es
+~/.config/hypr/hyprland.conf
+sudo ~/.config/hypr/hyprland.conf
+nvim ~/.config/hypr/hyprland.conf
+nano ~/.config/hypr/hyprland.conf
+nano ~/.config/hypr/hyprland.conf
+exit
+exit
+nano ~/.config/hypr/hyprland.conf
+exit
+exit
+exit
+exit
+exit
+exit
+nano ~/.config/hypr/hyprland.conf
+exit
+exit
+nano ~/.config/hypr/hyprland.conf
+nano ~/.config/hypr/hyprland.conf
+nano ~/.config/hypr/hyprland.conf
+nano ~/.config/hypr/hyprland.conf
+nano ~/.config/hypr/hyprland.conf
+nano ~/.config/hypr/hyprland.conf
+sudo pacman -S alacritty
+alacritty
+nano ~/.config/hypr/hyprland.conf
+fastfetch
+sudo pacman -S code
+code
+code
+sudo pacman -S firefox
+firefox
+nano ~/.config/hypr/hyprland.conf
+nano ~/.config/hypr/hyprland.conf
+nano ~/.config/hypr/hyprland.conf
+code
+code
+code
+code
+sudo pacman -S brightnessctl
+code
+code
+sudo poweroff
+code
+code
+sudo pacman -S hyprpaper
+mkdir -p ~/.config/hypr
+code
+killall hyprpaper && hyprpaper &
+[200~file /home/user/Resources/Images/wallpapers/wallpaper
+mv /home/user/Resources/Images/wallpapers/wallpaper /home/user/Resources/Images/wallpapers/wallpaper.png~
+code
+pacman -Qs hyprpaper 
+code
+killall hyprpaper && hyprpaper &
+killall hyprpaper && hyprpaper &
+killall hyprpaper && hyprpaper &
+hyprpaper
+reboot
+coee
+code
+sudo pacman -S fastfetch
+fastfetch
+code 
+code --ozone-platform=wayland --enable-features=WaylandWindowDecorations
+echo $XDG_SESSION_TYPE
+echo $WAYLAND_DISPLAY
+ps -eo pid,comm,cmd | grep -i code | grep -v grep
+sudo pacman -Rns code
+rm -rf ~/.vscode-oss
+rm -rf ~/.config/Code\ -\ OSS/
+code 
+yay -S --noconfirm visual-studio-code-bin
+sudo pacman -S --needed base-devel git
+cd /tmp
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+exit
+yay --version
+yay -S visual-studio-code-bin
+code
+yay -Rns visual-studio-code-bin
+rm -rf ~/.config/Code
+rm -rf ~/.vscode
+yay -S zed-editor-bin
+sudo pacman -S zed
+zed
+[200~/usr/bin/zed-editor~
+/usr/bin/zed-editor
+pacman -Ql zed | grep /bin/
+zeditor
+which zeditor
+/usr/bin/zeditor
+zeditor 
+zeditor
+sudo poweroff
+code
+sudo poweroff
+reboot
+poweroff
+sudo poweroff
+poweroff
+poweroff
+time 
+date
+date 
+date 
+date 
+soc molt inteligent 
+poweroff
+systemd-analyze
+systemd-analyze blame
+systemctl status display-manager
+sudo systemctl disable sddm
+reboot
+reboot
+reboot
+poweroof
+poweroff
+poferoff
+poweroff
+poweroff
+date 
+poweroff
+date
+date 
+date
+date
+date
+date
+poweroff
+date
+date
+date
+date
+date
+date
+date
+date
+date
+date
+hello
+hey
+easteregg
+python
+poweroff
+batery
+battery
+charge
+poweoff
+poweroff
+powerof
+poweroff
+poweroff
+poweroff
+powroff
+poweroff
+poweroff
+poweroff
+poweroff
+sudo pacman -Syu python python-pip ffmpeg git gcc
+python --version
+sudo pacman -S pyenv base-devel openssl zlib xz
+exec $SHELL
+pyenv install 3.10.11
+pyenv local 3.10.11
+python -m venv venv
+source venv/bin/activate
+python --version
+pip install --upgrade pip
+pip install git+https://github.com/coqui-ai/TTS.git@main#egg=TTS[core]
+tts --text "Roger, esto ya funciona como debe ser." --model_name tts_models/multilingual/multi-dataset/xtts_v2
+git clone https://github.com/myshell-ai/OpenVoice
+cd OpenVoice
+pip install -r requirements.txt
+wget https://huggingface.co/myshell-ai/OpenVoice/resolve/main/checkpoints/base_speaker/snapshot.pth -O checkpoints/base_speaker/snapshot.pth
+mkdir -p checkpoints/base_speaker
+wget https://huggingface.co/myshell-ai/OpenVoice/resolve/main/checkpoints/base_speaker/snapshot.pth -O checkpoints/base_speaker/snapshot.pth
+sudo pacman -S git-lfs
+git lfs install
+git clone https://huggingface.co/myshell-ai/OpenVoice
+cd OpenVoice
+python inference.py --text "Hello, mi name is Jeff and I'm 19 years old." --output_path output.wav
+cd ..
+python inference.py --text "Hello, my name is Jeff and I'm 19 years old." --output_path output.wav
+cd ~
+git clone https://github.com/myshell-ai/OpenVoice.git
+git clone https://github.com/myshell-ai/OpenVoice.git
+git clone https://github.com/myshell-ai/OpenVoice.git
+cd OpenVoice
+python inference.py --text "Hello, my name is Jeff and I'm 19 years old." --output_path output.wav
+poweroff
+poweroff
+poweroff
+poweroff
+poweroff
+poweroff
+date
+date
+poweroff
+hyprpaper 
+tti
+tty
+tty 2
+tty --help
+reboot
+code
+poweroff
+poweroff
+poweroff
+poweroff
+poweroff
+poweroff
+poweroff
+poweroff
+poweroff
+poweroff
+poweroff
+poweroff
+poweroff
+poweroff
+powerofff
+poweroff
+poweroff
+sudo pacman -S ghc cabal-install supercollider jack2 --needed
+[200~pacman -Q ghc cabal-install supercollider jack2
+~clear
+clear
+pacman -Q ghc cabal-install supercollider jack2
+poweroff
+poweroff
+poweroff
+poweroff
+date
