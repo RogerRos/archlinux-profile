@@ -14,6 +14,11 @@ vim.o.wrap = false
 vim.o.cursorline = true
 vim.o.splitbelow = true
 vim.o.splitright = true
+--No swap (DANGER)
+vim.o.swapfile = false
+vim.o.backup = false
+vim.o.writebackup = false
+
 
 -- Enable filetype, plugins and syntax
 vim.cmd([[
