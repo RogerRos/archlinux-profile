@@ -75,7 +75,11 @@ vim.api.nvim_create_autocmd("VimEnter", {
 
 -- Treesitter (modern syntax highlighting)
 require("nvim-treesitter.configs").setup({
-  ensure_installed = { "java", "lua", "vim", "vimdoc", "query" },
+  ensure_installed = {
+    "java", "lua", "vim", "vimdoc", "query",
+    "python", "c", "cpp", "html", "css",
+    "javascript", "typescript", "json", "yaml"
+  },
   highlight = {
     enable = true,
     additional_vim_regex_highlighting = false,
