@@ -14,11 +14,11 @@ vim.o.wrap = false
 vim.o.cursorline = true
 vim.o.splitbelow = true
 vim.o.splitright = true
---No swap (DANGER)
+
+-- No swap (clean setup)
 vim.o.swapfile = false
 vim.o.backup = false
 vim.o.writebackup = false
-
 
 -- Enable filetype, plugins and syntax
 vim.cmd([[
@@ -33,6 +33,9 @@ require("tokyonight").setup({
   terminal_colors = true,
 })
 vim.cmd("colorscheme tokyonight-moon")
+
+-- Icons
+require("nvim-web-devicons").setup({ default = true })
 
 -- File explorer (nvim-tree)
 require("nvim-tree").setup({
@@ -68,4 +71,14 @@ vim.api.nvim_create_autocmd("VimEnter", {
       require("nvim-tree.api").tree.open()
     end
   end,
+})
+
+-- Treesitter (modern syntax highlighting)
+require("nvim-treesitter.configs").setup({
+  ensure_installed = { "java", "lua", "vim", "vimdoc", "query" },
+  highlight = {
+    enable = true,
+    additional_vim_regex_highlighting = false,
+  },
+  indent = { enable = true },
 })
