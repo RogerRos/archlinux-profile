@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+DIR="$HOME/Resources/screenshots"
+mkdir -p "$DIR"
+
+ts=$(date +'%Y-%m-%d_%H-%M-%S')
+file="$DIR/$ts.png"
+
+grim -g "$(slurp)" "$file"
