@@ -27,7 +27,7 @@ def main(url):
     Gtk.main()
 
 if __name__ == "__main__":
-    uri = "file:///home/ros/media/images/wallpaper/index.html"
+    uri = "file:///home/user/media/images/wallpaper/webpaper.html"
     if len(sys.argv) > 1:
         uri = sys.argv[1]
     main(uri)
