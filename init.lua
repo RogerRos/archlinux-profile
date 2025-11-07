@@ -1,3 +1,6 @@
+-- Leader key
+vim.g.mapleader = " "
+
 -- Basic settings
 vim.o.number = true
 vim.o.relativenumber = true
@@ -5,7 +8,7 @@ vim.o.termguicolors = true
 vim.o.mouse = "a"
 vim.o.clipboard = "unnamedplus"
 vim.o.expandtab = true
-vim.o.shiftwidth = 2
+vim.o.shiftwidth = 2    
 vim.o.tabstop = 2
 vim.o.smartindent = true
 vim.o.ignorecase = true
@@ -26,13 +29,26 @@ vim.cmd([[
   syntax on
 ]])
 
--- TokyoNight colorscheme
+-- TokyoNight colorscheme - transparencia
 require("tokyonight").setup({
   style = "moon",
-  transparent = false,
+  transparent = true,
   terminal_colors = true,
+  styles = {
+    sidebars = "transparent",
+    floats = "transparent",
+  },
 })
 vim.cmd("colorscheme tokyonight-moon")
+
+-- elimina fondo en grupos comunes (incluye NvimTree)
+vim.api.nvim_set_hl(0, "Normal",        { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalNC",      { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat",   { bg = "none" })
+vim.api.nvim_set_hl(0, "SignColumn",    { bg = "none" })
+vim.api.nvim_set_hl(0, "EndOfBuffer",   { bg = "none" })
+vim.api.nvim_set_hl(0, "NvimTreeNormal",{ bg = "none" })
+vim.api.nvim_set_hl(0, "NvimTreeNormalNC",{ bg = "none" })
 
 -- Icons
 require("nvim-web-devicons").setup({ default = true })
@@ -44,6 +60,15 @@ require("nvim-tree").setup({
     width = 30,
     side = "left",
   },
+  on_attach = function(bufnr)
+    local api = require("nvim-tree.api")
+    local function opts(desc)
+      return { desc = "nvim-tree: " .. desc, buffer = bufnr, noremap = true, silent = true, nowait = true }
+    end
+    api.config.mappings.default_on_attach(bufnr)
+    vim.keymap.set("n", "<Right>", api.node.open.edit, opts("Open"))
+    vim.keymap.set("n", "<Left>", api.node.navigate.parent_close, opts("Close"))
+  end,
   renderer = {
     group_empty = true,
     highlight_git = true,
